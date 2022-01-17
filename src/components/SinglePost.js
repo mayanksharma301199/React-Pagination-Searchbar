@@ -1,17 +1,15 @@
 import React from 'react';
-import { Card, Col, Row } from 'antd';
+import { Card } from 'antd';
+import styles from './SinglePost.module.css';
 
 const SinglePost = (props) => {
 
     return (<>
-            <div style={{width:"25%"}}>
-                <Card type="inner" title= {props.title} style={{width:"250px", margin:"auto"}}>
+            <div className={styles['singlepost_container']}>
+                <Card type="inner" title= {props.title} className={styles['singlepost_card']}>
                     <p>{props.post}</p>
                 </Card>
             </div>
-        {/* <Card type="inner" title= {props.title} style={{ width: 300, margin:"auto"}}>
-            <p>{props.post}</p>
-        </Card> */}
         </>
     );
 };

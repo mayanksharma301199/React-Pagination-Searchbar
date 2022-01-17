@@ -1,0 +1,21 @@
+.posts_container{
+    padding-top: 16px;
+    text-align: center;
+    padding-bottom: 0px
+}
+
+.posts_input{
+
+    width: 25rem
+}
+
+.posts_display{
+    display: flex;
+    padding-top: 20px 
+}
+
+.posts_pagination{
+    margin: auto;
+    width: fit-content;
+    padding: 30px
+}
